@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  background: white;
+  height: 100%;
+  text-align: center;
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+.heading {
+  background: #b0b0f5;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+}
+.combaineInputBtn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0 0.5rem;
+}
+button {
+  width: 100%;
+  height: 2rem;
+  border-radius: 0.4rem;
+  text-transform: uppercase;
+  background: #0b93f5;
+}
+#inputColor {
+  width: 100%;
+  border: 1px solid #0b93f5;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  outline: none;
+}
+#inputColor:focus {
+  box-shadow: 0px 0px 5px 1px #0192f9;
+}
+.colorValuePara {
+  background: #b0aeae63;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  padding: 0.51rem;
+  box-shadow: 0 0 5px 1px whitesmoke;
+}
+#colorValue {
+  font-size: 1rem;
+  font-weight: bold;
+}
