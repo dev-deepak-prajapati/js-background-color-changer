@@ -20,6 +20,7 @@ body {
   align-items: center;
 }
 .heading {
+  width: 100%;
   background: #b0b0f5;
   text-transform: capitalize;
   font-size: 1.3rem;
@@ -60,7 +61,7 @@ button {
   padding: 0.51rem;
   box-shadow: 0 0 5px 1px whitesmoke;
 }
-#colorValue {
+#colorValueName {
   font-size: 1rem;
   font-weight: bold;  
   text-transform: lowercase;
